@@ -22,3 +22,27 @@ html {
 body {
   font-size: 1.4rem;
 }
+
+/* Container */
+.container {
+  border: 1px solid magenta;
+  background: var(--color-cream);
+  min-height: 100vh;
+  padding-inline: 1rem;
+  padding-block-start: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 700px){
+  .container {
+    align-items: center;
+  }
+}
+
+/* Card */
+.card {
+  background-color: dodgerblue;
+  max-width: 400px;
+  height: fit-content;
+}
