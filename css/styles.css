@@ -5,7 +5,7 @@
   --color-black: hsl(212, 21%, 14%);
   --color-grey: hsl(228, 12%, 48%);
   --color-cream: hsl(30, 38%, 92%);
-  --color-hite: hsl(0, 0%, 100%);
+  --color-white: hsl(0, 0%, 100%);
 }
 /* Base Styles */
 *, *::before, *::after {
@@ -59,15 +59,23 @@ p {
 }
 
 .card__header {
-  background: tomato;
+  border: 2px solid tomato;
+}
+
+.card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .card__body {
-  background: dodgerblue;
+  border: 1px solid dodgerblue;
+  background-color: var(--color-white);
 }
 
 @media screen and (min-width: 900px) {
   .card {
+    max-width: 550px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* max-width: 600px; */
