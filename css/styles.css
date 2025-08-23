@@ -1,4 +1,24 @@
-/* Fonts */
 /* Variables */
+:root {
+  --color-green: hsl(158, 36%, 37%);
+  --color-dark-green: hsl(158, 42%, 18%);
+  --color-black: hsl(212, 21%, 14%);
+  --color-grey: hsl(228, 12%, 48%);
+  --color-cream: hsl(30, 38%, 92%);
+  --color-hite: hsl(0, 0%, 100%);
+}
 /* Base Styles */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /* Typography */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+}
