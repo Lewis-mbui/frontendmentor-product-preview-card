@@ -21,6 +21,7 @@ html {
 
 body {
   font-size: 1.4rem;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
 /* Container */
@@ -63,4 +64,38 @@ body {
     grid-template-columns: 1fr 1fr;
     /* max-width: 600px; */
   }
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 1.4rem;
+  font-size: 1.4rem;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.btn--primary {
+  background-color: var(--color-green);
+  color: white;
+  font-family: Montserrat;
+  font-weight: 600;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn--primary:hover {
+  background-color: var(--color-dark-green);
+}
+
+.btn--block {
+  width: 100%;
+}
+
+.btn__cart-icon {
+  margin-right: 8px;
 }
