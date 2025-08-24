@@ -34,11 +34,11 @@ p {
 
 /* Container */
 .container {
-  border: 1px solid magenta;
   background: var(--color-cream);
   min-height: 100vh;
   padding-inline: 1rem;
   padding-block-start: 5rem;
+  padding-block-end: 9rem;
   display: flex;
   justify-content: center;
 }
@@ -51,16 +51,16 @@ p {
 
 /* Card */
 .card {
-  border: 1px solid green;
   border-radius: 5px;
+  overflow: hidden;
   width: 100%;
   max-width: 400px;
   height: fit-content;
 }
 
-.card__header {
+/* .card__header {
   border: 2px solid tomato;
-}
+} */
 
 .card__image {
   width: 100%;
@@ -69,8 +69,47 @@ p {
 }
 
 .card__body {
-  border: 1px solid dodgerblue;
+  /* border: 1px solid dodgerblue; */
   background-color: var(--color-white);
+  padding: 2.6rem;
+}
+
+.card__product-category {
+  text-transform: uppercase;
+  letter-spacing: 3.8px;
+  margin-bottom: 2.3rem;
+  color: var(--color-grey);
+  font-weight: 500;
+}
+
+.card__product-name {
+  font-size: 2.9rem;
+  line-height: 1.1;
+  margin-bottom: 2.3rem;
+}
+
+.card__product-description {
+  margin-bottom: 2.3rem;
+  color: var(--color-grey);
+}
+
+.card__price-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.4rem;
+  margin-bottom: 2.3rem;
+}
+
+.card__price-tag .current-price {
+  color: var(--color-green);
+  font-weight: 700;
+  font-size: 3rem;
+  font-family: "Fraunces";
+}
+
+.card__price-tag .former-price {
+  color: var(--color-grey);
+  text-decoration: line-through;
 }
 
 @media screen and (min-width: 900px) {
