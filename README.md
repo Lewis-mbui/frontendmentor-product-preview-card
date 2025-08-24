@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://frontendmentor-product-preview-card-ten.vercel.app/)
+- Live Site URL: [Product preview card](https://frontendmentor-product-preview-card-ten.vercel.app/)
 
 ## My process
 
