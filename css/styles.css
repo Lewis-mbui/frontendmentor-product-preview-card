@@ -40,7 +40,9 @@ p {
   padding-block-start: 5rem;
   padding-block-end: 9rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 900px){
@@ -154,3 +156,7 @@ p {
 .btn__cart-icon {
   margin-right: 8px;
 }
+
+/* Utilities */
+.attribution { font-size: 11px; text-align: center; margin-top: 1rem;}
+.attribution a { color: hsl(228, 45%, 44%); }
